@@ -2,7 +2,7 @@
 
 #########################################################################################################
 #                                                                                                       #
-#  Weatherinfo for openATV is a multiplatform tool (runs on Enigma2 & Windows and probably many others)  #
+#  Weatherinfo for openATV is a multiplatform tool (runs on Enigma2 & Windows and probably many others) #
 #  Coded by Mr.Servo @ openATV and jbleyel @ openATV (c) 2022                                           #
 #  Learn more about the tool by running it in the shell: "python Weatherinfo.py -h"                     #
 #  -----------------------------------------------------------------------------------------------------#
@@ -36,7 +36,6 @@ myfile = "/tmp/OAWeatherInfo.log"
 if isfile(myfile):
     remove(myfile)
 # File copieren ############################################
-
 
 # log file anlegen ##################################
 # kitte888 logfile anlegen die eingabe in logstatus
